@@ -48,6 +48,14 @@ public class CacheConfiguration {
             createCache(cm, com.galopulerev.store.domain.User.class.getName());
             createCache(cm, com.galopulerev.store.domain.Authority.class.getName());
             createCache(cm, com.galopulerev.store.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.galopulerev.store.domain.Product.class.getName());
+            createCache(cm, com.galopulerev.store.domain.ProductCategory.class.getName());
+            createCache(cm, com.galopulerev.store.domain.ProductCategory.class.getName() + ".products");
+            createCache(cm, com.galopulerev.store.domain.CustomerDetails.class.getName());
+            createCache(cm, com.galopulerev.store.domain.CustomerDetails.class.getName() + ".carts");
+            createCache(cm, com.galopulerev.store.domain.ShoppingCart.class.getName());
+            createCache(cm, com.galopulerev.store.domain.ShoppingCart.class.getName() + ".orders");
+            createCache(cm, com.galopulerev.store.domain.ProductOrder.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

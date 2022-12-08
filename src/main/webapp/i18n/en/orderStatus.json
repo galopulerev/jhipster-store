@@ -1,0 +1,11 @@
+{
+  "jhipsterStoreApp": {
+    "OrderStatus": {
+      "null": "",
+      "COMPLETED": "COMPLETED",
+      "PAID": "PAID",
+      "PENDING": "PENDING",
+      "CANCELLED": "CANCELLED"
+    }
+  }
+}
